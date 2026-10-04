@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f1e8">
+  <title>MAM | For Mam Irum Hira</title>
+  <meta name="description" content="A Teachers’ Day cover story for Mam Irum Hira, with love and respect from Abdul Wahab and Abu Bakr.">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23f5f1e8'/%3E%3Ctext x='3' y='26' font-family='Georgia' font-size='29' fill='%23cf3929'%3EM%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&family=Libre+Franklin:wght@400;500;600;700&family=Mrs+Saint+Delafield&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#letter">Skip to the editor’s letter</a>
+  <header class="edition-bar"><a href="#cover" class="edition-brand" aria-label="Back to cover">MAM<span> / THE COVER STORY</span></a><span id="edition-label"></span><a href="#letters" id="header-write"></a></header>
+  <main>
+    <section id="cover" class="cover paper" aria-labelledby="masthead">
+      <div class="cover-top smallprint"><span id="cover-edition"></span><span id="cover-date"></span></div>
+      <h1 id="masthead">MAM</h1>
+      <div class="cover-image-wrap">
+        <img id="cover-photo" class="cover-photo" fetchpriority="high" width="1200" height="1600" alt="Mam Irum Hira smiling in a snowy mountain landscape">
+        <div class="cover-lines"><p id="cover-kicker" class="smallprint"></p><h2 id="cover-name"></h2><p id="cover-deck"></p><div class="cover-rule"></div><p id="cover-secondary"></p></div>
+        <div class="cover-seal"><span id="seal-top"></span><strong>05</strong><span id="seal-bottom"></span></div>
+        <div class="cover-bottom"><p id="cover-byline"></p><div class="price"><svg viewBox="0 0 96 34" width="96" height="34" aria-hidden="true"><path d="M2 0v34M6 0v34M11 0v34M16 0v34M20 0v34M25 0v34M32 0v34M38 0v34M42 0v34M47 0v34M53 0v34M60 0v34M65 0v34M70 0v34M78 0v34M84 0v34M89 0v34M94 0v34" stroke="currentColor" stroke-width="2"/></svg><span id="cover-price"></span></div></div>
+      </div>
+      <a id="open-cover" href="#letter" class="cover-open"></a>
+    </section>
+    <section id="letter" class="section letter" aria-labelledby="letter-title"><div class="folio"><span id="letter-folio"></span><span>01</span></div><div class="letter-layout"><div><p class="eyebrow" id="letter-kicker"></p><h2 id="letter-title" class="headline"></h2></div><div class="letter-copy"><p id="salutation"></p><div id="letter-paragraphs"></div><p id="signoff"></p><svg class="signature" viewBox="0 0 600 110" role="img" aria-labelledby="signature-label"><title id="signature-label"></title><defs><mask id="signature-mask"><path class="signature-stroke" d="M0 55H600" stroke="white" stroke-width="110" fill="none"/></mask></defs><text id="signature-text" x="2" y="69" mask="url(#signature-mask)"></text></svg><p class="smallprint" id="signature-caption"></p></div></div></section>
+    <section id="lessons" class="section lessons" aria-labelledby="lessons-title"><div class="folio"><span id="lessons-folio"></span><span>02</span></div><div class="section-heading"><p class="eyebrow" id="lessons-kicker"></p><h2 id="lessons-title" class="headline"></h2></div><ol id="lesson-list"></ol></section>
+    <section id="poster" class="poster section" aria-labelledby="poster-title"><div class="folio"><span id="poster-folio"></span><span>03</span></div><div class="poster-heading"><h2 id="poster-title" class="headline"></h2><span class="smallprint" id="poster-aside"></span></div><figure><div class="poster-frame"><img id="poster-photo" loading="lazy" width="960" height="1280" alt="Mam Irum Hira and Abu Bakr standing beside a mountain lake"></div><figcaption id="poster-caption"></figcaption></figure></section>
+    <section id="photo-story" class="photo-story section" aria-labelledby="photo-story-title"><div class="folio"><span id="photos-folio"></span><span>04</span></div><div class="story-heading"><div><p class="eyebrow" id="photos-kicker"></p><h2 id="photo-story-title" class="headline"></h2></div><p id="photo-instruction" class="smallprint"></p></div><div id="spreads" class="spreads" role="region" aria-label="Photo story" tabindex="0"></div><div class="story-controls"><div><button type="button" id="previous-photo"></button><button type="button" id="next-photo"></button></div><span id="photo-position" class="smallprint" aria-live="polite"></span></div></section>
+    <section id="quotes" class="section quotes" aria-label="Words to keep"><div class="folio"><span id="quotes-folio"></span><span>05</span></div><div id="quote-list"></div></section>
+    <section id="letters" class="section letters" aria-labelledby="letters-title"><div class="folio"><span id="letters-folio"></span><span>06</span></div><div class="letters-heading"><div><p class="eyebrow" id="letters-kicker"></p><h2 id="letters-title" class="headline"></h2></div><div><p id="letters-intro"></p><button type="button" id="write-letter" class="button" aria-expanded="false" aria-controls="letter-form"></button></div></div><form id="letter-form" hidden><div class="form-heading"><h3 id="form-title"></h3><button id="cancel-letter" type="button" class="text-button"></button></div><label for="writer-name" id="name-label"></label><input id="writer-name" name="name" maxlength="60" autocomplete="name"><label for="writer-message" id="message-label"></label><textarea id="writer-message" name="message" required maxlength="400" rows="5"></textarea><div class="form-bottom"><span id="character-count" class="smallprint">0 / 400</span><button id="save-letter" class="button" type="submit"></button></div></form><p id="letter-status" role="status" class="smallprint"></p><div id="printed-letters" class="printed-letters"></div><p id="local-note" class="smallprint local-note"></p></section>
+    <footer id="back-cover" class="back-cover paper"><div class="folio"><span id="back-folio"></span><span>07</span></div><p class="eyebrow" id="back-kicker"></p><h2 id="back-title"></h2><p id="back-names"></p><button id="read-again" class="text-button" type="button"></button><div class="back-bottom smallprint"><span>MAM</span><span id="back-date"></span><span id="back-price"></span></div></footer>
+  </main>
+  <dialog id="photo-dialog" class="photo-dialog" aria-labelledby="dialog-caption"><button id="close-photo" class="dialog-close" type="button"></button><figure><img id="dialog-photo" alt=""><figcaption id="dialog-caption"></figcaption></figure></dialog>
+  <noscript><p class="noscript">Please enable JavaScript to read this edition and view the photo story.</p></noscript>
+</body>
+</html>
