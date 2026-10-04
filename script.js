@@ -2,14 +2,14 @@
 // The personal letter, lessons and original quotes are suggested wording: replace freely.
 const EDITION = {
   names: ['Abdul Wahab', 'Abu Bakr'],
-  coverPhoto: { file: 'assets/mam-irum-hira.jpg', alt: 'Mam Irum Hira smiling in a snowy mountain landscape' },
-  posterPhoto: { file: 'assets/mam-and-bakr.jpg', alt: 'Mam Irum Hira and Abu Bakr standing beside a mountain lake' },
+  coverPhoto: { file: 'assets/mam-irum-hira.jpg', alt: 'Mam Irum Hina smiling in a snowy mountain landscape' },
+  posterPhoto: { file: 'assets/mam-and-bakr.jpg', alt: 'Mam Irum Hina and Abu Bakr standing beside a mountain lake' },
   // Add 2–8 photo objects here. Put Abdul Wahab’s photo in the first two positions.
   photos: [
-    { file: 'assets/photo-2.jpg', alt: 'Mam Irum Hira with students during a mountain trip', title: 'The days we keep.', caption: 'Together, away from the usual routine.' },
+    { file: 'assets/photo-2.jpg', alt: 'Mam Irum Hina with students during a mountain trip', title: 'The days we keep.', caption: 'Together, away from the usual routine.' },
     { file: 'assets/photo-4.jpg', alt: 'A group of students and teachers gathered in a green mountain valley', title: 'All of us, together.', caption: 'A whole day, held in one photograph.' },
-    { file: 'assets/photo-1.jpg', alt: 'Mam Irum Hira and four companions standing beside a snowman', title: 'A little snow. A lot of memories.', caption: 'Some of our favourite moments happened between the plans.' },
-    { file: 'assets/photo-3.jpg', alt: 'Mam Irum Hira standing in front of a lake and snow-capped mountains', title: 'A moment for Mam.', caption: 'A quiet frame from a day worth remembering.' }
+    { file: 'assets/photo-1.jpg', alt: 'Mam Irum Hina and four companions standing beside a snowman', title: 'A little snow. A lot of memories.', caption: 'Some of our favourite moments happened between the plans.' },
+    { file: 'assets/photo-3.jpg', alt: 'Mam Irum Hina standing in front of a lake and snow-capped mountains', title: 'A moment for Mam.', caption: 'A quiet frame from a day worth remembering.' }
   ],
   letter: [
     'We wanted to do something a little different this Teachers’ Day. So we made a magazine with you on the cover, and the things we want to say inside.',
@@ -32,12 +32,12 @@ const EDITION = {
   text: {
     'edition-label': '5 October · Teachers’ Day', 'header-write': 'Write to Mam',
     'cover-edition': 'The Teachers’ Day Edition', 'cover-date': '5 October 2026',
-    'cover-kicker': 'Our cover star', 'cover-name': 'Irum Hira', 'cover-deck': 'The HOD who leads with heart.',
+    'cover-kicker': 'Our cover star', 'cover-name': 'Irum Hina', 'cover-deck': 'The HOD who leads with heart.',
     'cover-secondary': 'The memories. The lessons. A thank you, from us.',
     'seal-top': 'October', 'seal-bottom': 'One of one',
     'cover-byline': 'A special edition by Abdul Wahab and Abu Bakr.', 'cover-price': 'Priceless',
     'open-cover': 'Open the edition', 'letter-folio': 'The editor’s letter', 'letter-kicker': 'Dear Mam,',
-    'letter-title': 'A note from the editors.', 'salutation': 'Mam Irum Hira,', 'signoff': 'With love and respect,',
+    'letter-title': 'A note from the editors.', 'salutation': 'Mam Irum Hina,', 'signoff': 'With love and respect,',
     'signature-caption': 'Your students. Your editors for today.',
     'lessons-folio': 'Beyond the everyday', 'lessons-kicker': 'The things that stay', 'lessons-title': 'Things we learned from her.',
     'poster-folio': 'The centerfold', 'poster-title': 'One for the memory books.', 'poster-aside': 'Some photographs say enough.',
